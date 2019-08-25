@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C562A7D9231285380081E7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C562A7D8231285380081E7EA /* AppDelegate.swift */; };
-		C562A7DB231285380081E7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C562A7DA231285380081E7EA /* ViewController.swift */; };
-		C562A7DE231285380081E7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C562A7DC231285380081E7EA /* Main.storyboard */; };
-		C562A7E0231285450081E7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C562A7DF231285450081E7EA /* Assets.xcassets */; };
-		C562A7E3231285450081E7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C562A7E1231285450081E7EA /* LaunchScreen.storyboard */; };
+		C5F8FE4A231288E100A0CF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8FE49231288E100A0CF92 /* AppDelegate.swift */; };
+		C5F8FE4C231288E100A0CF92 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8FE4B231288E100A0CF92 /* MainScreenVC.swift */; };
+		C5F8FE4F231288E100A0CF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F8FE4D231288E100A0CF92 /* Main.storyboard */; };
+		C5F8FE51231288E200A0CF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F8FE50231288E200A0CF92 /* Assets.xcassets */; };
+		C5F8FE54231288E200A0CF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F8FE52231288E200A0CF92 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C562A7D5231285380081E7EA /* xyz-accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xyz-accelerometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C562A7D8231285380081E7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C562A7DA231285380081E7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C562A7DD231285380081E7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C562A7DF231285450081E7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C562A7E2231285450081E7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C562A7E4231285450081E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F8FE46231288E100A0CF92 /* xyz-accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xyz-accelerometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8FE49231288E100A0CF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5F8FE4B231288E100A0CF92 /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
+		C5F8FE4E231288E100A0CF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5F8FE50231288E200A0CF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F8FE53231288E200A0CF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5F8FE55231288E200A0CF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C562A7D2231285380081E7EA /* Frameworks */ = {
+		C5F8FE43231288E100A0CF92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C562A7CC231285380081E7EA = {
+		C5F8FE3D231288E100A0CF92 = {
 			isa = PBXGroup;
 			children = (
-				C562A7D7231285380081E7EA /* xyz-accelerometer */,
-				C562A7D6231285380081E7EA /* Products */,
+				C5F8FE48231288E100A0CF92 /* xyz-accelerometer */,
+				C5F8FE47231288E100A0CF92 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C562A7D6231285380081E7EA /* Products */ = {
+		C5F8FE47231288E100A0CF92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C562A7D5231285380081E7EA /* xyz-accelerometer.app */,
+				C5F8FE46231288E100A0CF92 /* xyz-accelerometer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C562A7D7231285380081E7EA /* xyz-accelerometer */ = {
+		C5F8FE48231288E100A0CF92 /* xyz-accelerometer */ = {
 			isa = PBXGroup;
 			children = (
-				C562A7D8231285380081E7EA /* AppDelegate.swift */,
-				C562A7DA231285380081E7EA /* ViewController.swift */,
-				C562A7DC231285380081E7EA /* Main.storyboard */,
-				C562A7DF231285450081E7EA /* Assets.xcassets */,
-				C562A7E1231285450081E7EA /* LaunchScreen.storyboard */,
-				C562A7E4231285450081E7EA /* Info.plist */,
+				C5F8FE49231288E100A0CF92 /* AppDelegate.swift */,
+				C5F8FE4B231288E100A0CF92 /* MainScreenVC.swift */,
+				C5F8FE4D231288E100A0CF92 /* Main.storyboard */,
+				C5F8FE50231288E200A0CF92 /* Assets.xcassets */,
+				C5F8FE52231288E200A0CF92 /* LaunchScreen.storyboard */,
+				C5F8FE55231288E200A0CF92 /* Info.plist */,
 			);
 			path = "xyz-accelerometer";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C562A7D4231285380081E7EA /* xyz-accelerometer */ = {
+		C5F8FE45231288E100A0CF92 /* xyz-accelerometer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C562A7E7231285450081E7EA /* Build configuration list for PBXNativeTarget "xyz-accelerometer" */;
+			buildConfigurationList = C5F8FE58231288E200A0CF92 /* Build configuration list for PBXNativeTarget "xyz-accelerometer" */;
 			buildPhases = (
-				C562A7D1231285380081E7EA /* Sources */,
-				C562A7D2231285380081E7EA /* Frameworks */,
-				C562A7D3231285380081E7EA /* Resources */,
+				C5F8FE42231288E100A0CF92 /* Sources */,
+				C5F8FE43231288E100A0CF92 /* Frameworks */,
+				C5F8FE44231288E100A0CF92 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = "xyz-accelerometer";
 			productName = "xyz-accelerometer";
-			productReference = C562A7D5231285380081E7EA /* xyz-accelerometer.app */;
+			productReference = C5F8FE46231288E100A0CF92 /* xyz-accelerometer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C562A7CD231285380081E7EA /* Project object */ = {
+		C5F8FE3E231288E100A0CF92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Sau;
 				TargetAttributes = {
-					C562A7D4231285380081E7EA = {
+					C5F8FE45231288E100A0CF92 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = C562A7D0231285380081E7EA /* Build configuration list for PBXProject "xyz-accelerometer" */;
+			buildConfigurationList = C5F8FE41231288E100A0CF92 /* Build configuration list for PBXProject "xyz-accelerometer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = C562A7CC231285380081E7EA;
-			productRefGroup = C562A7D6231285380081E7EA /* Products */;
+			mainGroup = C5F8FE3D231288E100A0CF92;
+			productRefGroup = C5F8FE47231288E100A0CF92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C562A7D4231285380081E7EA /* xyz-accelerometer */,
+				C5F8FE45231288E100A0CF92 /* xyz-accelerometer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C562A7D3231285380081E7EA /* Resources */ = {
+		C5F8FE44231288E100A0CF92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C562A7E3231285450081E7EA /* LaunchScreen.storyboard in Resources */,
-				C562A7E0231285450081E7EA /* Assets.xcassets in Resources */,
-				C562A7DE231285380081E7EA /* Main.storyboard in Resources */,
+				C5F8FE54231288E200A0CF92 /* LaunchScreen.storyboard in Resources */,
+				C5F8FE51231288E200A0CF92 /* Assets.xcassets in Resources */,
+				C5F8FE4F231288E100A0CF92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C562A7D1231285380081E7EA /* Sources */ = {
+		C5F8FE42231288E100A0CF92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C562A7DB231285380081E7EA /* ViewController.swift in Sources */,
-				C562A7D9231285380081E7EA /* AppDelegate.swift in Sources */,
+				C5F8FE4C231288E100A0CF92 /* MainScreenVC.swift in Sources */,
+				C5F8FE4A231288E100A0CF92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C562A7DC231285380081E7EA /* Main.storyboard */ = {
+		C5F8FE4D231288E100A0CF92 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C562A7DD231285380081E7EA /* Base */,
+				C5F8FE4E231288E100A0CF92 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C562A7E1231285450081E7EA /* LaunchScreen.storyboard */ = {
+		C5F8FE52231288E200A0CF92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C562A7E2231285450081E7EA /* Base */,
+				C5F8FE53231288E200A0CF92 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C562A7E5231285450081E7EA /* Debug */ = {
+		C5F8FE56231288E200A0CF92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		C562A7E6231285450081E7EA /* Release */ = {
+		C5F8FE57231288E200A0CF92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +278,7 @@
 			};
 			name = Release;
 		};
-		C562A7E8231285450081E7EA /* Debug */ = {
+		C5F8FE59231288E200A0CF92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		C562A7E9231285450081E7EA /* Release */ = {
+		C5F8FE5A231288E200A0CF92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C562A7D0231285380081E7EA /* Build configuration list for PBXProject "xyz-accelerometer" */ = {
+		C5F8FE41231288E100A0CF92 /* Build configuration list for PBXProject "xyz-accelerometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C562A7E5231285450081E7EA /* Debug */,
-				C562A7E6231285450081E7EA /* Release */,
+				C5F8FE56231288E200A0CF92 /* Debug */,
+				C5F8FE57231288E200A0CF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C562A7E7231285450081E7EA /* Build configuration list for PBXNativeTarget "xyz-accelerometer" */ = {
+		C5F8FE58231288E200A0CF92 /* Build configuration list for PBXNativeTarget "xyz-accelerometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C562A7E8231285450081E7EA /* Debug */,
-				C562A7E9231285450081E7EA /* Release */,
+				C5F8FE59231288E200A0CF92 /* Debug */,
+				C5F8FE5A231288E200A0CF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C562A7CD231285380081E7EA /* Project object */;
+	rootObject = C5F8FE3E231288E100A0CF92 /* Project object */;
 }
